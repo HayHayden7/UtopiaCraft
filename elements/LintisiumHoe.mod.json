@@ -1,0 +1,31 @@
+{
+  "_fv": 15,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "lintisium_hoe_updated",
+    "customModelName": "Normal",
+    "name": "Lintisium Hoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:UtopiaCraftToolsTab"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 0,
+    "efficiency": 6.0,
+    "attackSpeed": 4.0,
+    "enchantability": 15,
+    "damageVsEntity": 3.0,
+    "usageCount": 1600,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:LintisiumIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

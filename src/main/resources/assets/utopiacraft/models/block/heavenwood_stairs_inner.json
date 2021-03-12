@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "utopiacraft:blocks/heavenwood_planks",
+    "top": "utopiacraft:blocks/heavenwood_planks",
+    "side": "utopiacraft:blocks/heavenwood_planks"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "utopiacraft:blocks/ryder_planks_fixed_new",
+    "particle": "utopiacraft:blocks/ryder_planks_fixed_new"
+  }
+}

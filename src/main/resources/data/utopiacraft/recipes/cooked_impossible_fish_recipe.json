@@ -1,0 +1,12 @@
+{
+  "group": "utopiacraft",
+  "type": "minecraft:smoking",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "utopiacraft:impossible_fish_food"
+  },
+  "result": {
+    "item": "utopiacraft:cooked_impossible_fish"
+  }
+}

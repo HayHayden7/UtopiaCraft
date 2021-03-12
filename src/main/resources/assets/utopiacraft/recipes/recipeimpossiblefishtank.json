@@ -1,0 +1,16 @@
+{
+  "group": "utopiacraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "utopiacraft:acrylictank"
+    },
+    {
+      "item": "utopiacraft:impossiblefishitem"
+    }
+  ],
+  "result": {
+    "item": "utopiacraft:impossiblefishtank",
+    "count": 1
+  }
+}

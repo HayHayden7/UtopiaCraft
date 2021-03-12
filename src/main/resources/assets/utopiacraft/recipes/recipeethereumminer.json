@@ -1,0 +1,42 @@
+{
+  "group": "utopiacraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "utopiacraft:demaliteingot"
+    },
+    "1": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "2": {
+      "item": "utopiacraft:demaliteingot"
+    },
+    "3": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "4": {
+      "item": "utopiacraft:ethereumdust"
+    },
+    "5": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "6": {
+      "item": "utopiacraft:demaliteingot"
+    },
+    "7": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "8": {
+      "item": "utopiacraft:demaliteingot"
+    }
+  },
+  "result": {
+    "item": "utopiacraft:ethereumminer",
+    "count": 1
+  }
+}

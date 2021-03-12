@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "variant=default": {
+      "model": "utopiacraft:ryderslab_double"
+    }
+  }
+}

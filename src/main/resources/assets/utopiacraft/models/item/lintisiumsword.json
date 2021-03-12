@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "utopiacraft:items/lintisium_sword_updated"
+  }
+}

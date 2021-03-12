@@ -1,0 +1,42 @@
+{
+  "group": "utopiacraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:obsidian"
+    },
+    "1": {
+      "item": "minecraft:obsidian"
+    },
+    "2": {
+      "item": "minecraft:obsidian"
+    },
+    "3": {
+      "item": "utopiacraft:highstrengthacrylic"
+    },
+    "4": {
+      "item": "minecraft:water_bucket"
+    },
+    "5": {
+      "item": "utopiacraft:highstrengthacrylic"
+    },
+    "6": {
+      "item": "utopiacraft:highstrengthacrylic"
+    },
+    "7": {
+      "item": "utopiacraft:highstrengthacrylic"
+    },
+    "8": {
+      "item": "utopiacraft:highstrengthacrylic"
+    }
+  },
+  "result": {
+    "item": "utopiacraft:acrylictank",
+    "count": 1
+  }
+}

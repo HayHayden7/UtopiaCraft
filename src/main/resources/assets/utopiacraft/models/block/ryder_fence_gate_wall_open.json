@@ -1,0 +1,6 @@
+{
+  "parent": "block/template_fence_gate_wall_open",
+  "textures": {
+    "texture": "utopiacraft:blocks/ryder_planks_fixed_new"
+  }
+}

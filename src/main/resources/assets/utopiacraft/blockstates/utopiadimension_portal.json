@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "utopiacraft:block/utopiadimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "utopiacraft:block/utopiadimension_portal_ns"
+    }
+  }
+}

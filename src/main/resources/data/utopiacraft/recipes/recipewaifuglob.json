@@ -1,0 +1,37 @@
+{
+  "group": "utopiacraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "utopiacraft:waifucard1"
+    },
+    {
+      "item": "utopiacraft:waifucard4"
+    },
+    {
+      "item": "utopiacraft:waifucard7"
+    },
+    {
+      "item": "utopiacraft:waifucard2"
+    },
+    {
+      "item": "utopiacraft:waifucard5"
+    },
+    {
+      "item": "utopiacraft:waifucard8"
+    },
+    {
+      "item": "utopiacraft:waifucard3"
+    },
+    {
+      "item": "utopiacraft:waifucard6"
+    },
+    {
+      "item": "utopiacraft:waifucard9"
+    }
+  ],
+  "result": {
+    "item": "utopiacraft:waifuglob",
+    "count": 1
+  }
+}

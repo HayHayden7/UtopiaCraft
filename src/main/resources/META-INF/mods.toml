@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[35,)"
+license="Not specified"
+
+[[mods]]
+modId="utopiacraft"
+version="1.0.0"
+displayName="UtopiaCraft"
+credits="Created using mod maker MCreator"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/utopiacraft"
+authors="HayHayden7, Stwunky"
+description='''
+The Utopia
+'''
+
+[[dependencies.utopiacraft]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.4]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

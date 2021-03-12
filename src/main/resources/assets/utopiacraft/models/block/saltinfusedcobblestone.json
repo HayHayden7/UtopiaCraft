@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "utopiacraft:blocks/salt_infused_cobblestone",
+    "particle": "utopiacraft:blocks/salt_infused_cobblestone"
+  }
+}

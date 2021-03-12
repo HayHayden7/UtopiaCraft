@@ -1,0 +1,21 @@
+{
+  "group": "utopiacraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "utopiacraft:blacksuitbody"
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 15
+    },
+    {
+      "item": "minecraft:red_flower",
+      "data": 0
+    }
+  ],
+  "result": {
+    "item": "utopiacraft:whitesuitbody",
+    "count": 1
+  }
+}

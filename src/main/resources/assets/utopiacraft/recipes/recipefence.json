@@ -1,0 +1,32 @@
+{
+  "group": "utopiacraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "utopiacraft:ryderplank"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "utopiacraft:ryderplank"
+    },
+    "3": {
+      "item": "utopiacraft:ryderplank"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "utopiacraft:ryderplank"
+    }
+  },
+  "result": {
+    "item": "utopiacraft:ryderfence",
+    "count": 3
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "group": "utopiacraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "utopiacraft:heavenwood_log"
+    }
+  ],
+  "result": {
+    "item": "utopiacraft:heavenwood_planks",
+    "count": 4
+  }
+}

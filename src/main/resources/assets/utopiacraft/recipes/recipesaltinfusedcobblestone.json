@@ -1,0 +1,16 @@
+{
+  "group": "utopiacraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "utopiacraft:phlutoniumsalt"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    }
+  ],
+  "result": {
+    "item": "utopiacraft:saltinfusedcobblestone",
+    "count": 1
+  }
+}

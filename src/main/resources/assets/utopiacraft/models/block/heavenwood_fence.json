@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "utopiacraft:blocks/heavenwood_planks",
+    "particle": "utopiacraft:blocks/heavenwood_planks"
+  }
+}

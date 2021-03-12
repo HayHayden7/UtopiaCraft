@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "utopiacraft:blocks/bunko",
+    "particle": "utopiacraft:blocks/bunko"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "group": "utopiacraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "utopiacraft:phlutoniumhammer"
+    },
+    {
+      "item": "utopiacraft:phlutoniumgem"
+    }
+  ],
+  "result": {
+    "item": "utopiacraft:phlutoniumsalt",
+    "count": 2
+  }
+}

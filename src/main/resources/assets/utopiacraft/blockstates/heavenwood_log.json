@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "utopiacraft:block/heavenwood_log"
+    },
+    "facing=north": {
+      "model": "utopiacraft:block/heavenwood_log"
+    },
+    "facing=east": {
+      "model": "utopiacraft:block/heavenwood_log",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "utopiacraft:block/heavenwood_log",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "utopiacraft:block/heavenwood_log",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "utopiacraft:block/heavenwood_log",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

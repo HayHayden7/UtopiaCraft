@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "utopiacraft:items/pixil-frame-0_3"
+  }
+}

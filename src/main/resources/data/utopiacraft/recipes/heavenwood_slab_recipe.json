@@ -1,0 +1,22 @@
+{
+  "group": "utopiacraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "utopiacraft:heavenwood_planks"
+    },
+    "1": {
+      "item": "utopiacraft:heavenwood_planks"
+    },
+    "2": {
+      "item": "utopiacraft:heavenwood_planks"
+    }
+  },
+  "result": {
+    "item": "utopiacraft:heavenwood_slab",
+    "count": 3
+  }
+}

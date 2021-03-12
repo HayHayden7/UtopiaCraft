@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "utopiacraft:blocks/augmented_iron_updated",
+    "particle": "utopiacraft:blocks/augmented_iron_updated"
+  }
+}

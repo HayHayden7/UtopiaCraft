@@ -1,0 +1,33 @@
+{
+  "group": "utopiacraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "utopiacraft:heavenwood_planks"
+    },
+    "3": {
+      "item": "utopiacraft:heavenwood_planks"
+    },
+    "4": {
+      "item": "utopiacraft:heavenwood_planks"
+    },
+    "6": {
+      "item": "utopiacraft:heavenwood_planks"
+    },
+    "7": {
+      "item": "utopiacraft:heavenwood_planks"
+    },
+    "8": {
+      "item": "utopiacraft:heavenwood_planks"
+    }
+  },
+  "result": {
+    "item": "utopiacraft:heavenwood_stairs",
+    "count": 4
+  }
+}

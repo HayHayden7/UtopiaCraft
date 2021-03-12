@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "utopiacraft:block/ryderslab"
+    },
+    "type=top": {
+      "model": "utopiacraft:block/ryderslab_top"
+    },
+    "type=double": {
+      "model": "utopiacraft:block/ryderslab_full"
+    }
+  }
+}

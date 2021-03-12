@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "utopiacraft:blocks/heanvewood_log_top",
+    "up": "utopiacraft:blocks/heanvewood_log_top",
+    "north": "utopiacraft:blocks/heavenwood_log_side",
+    "east": "utopiacraft:blocks/heavenwood_log_side",
+    "south": "utopiacraft:blocks/heavenwood_log_side",
+    "west": "utopiacraft:blocks/heavenwood_log_side",
+    "particle": "utopiacraft:blocks/heanvewood_log_top"
+  }
+}

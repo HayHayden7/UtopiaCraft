@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "utopiacraft:ethereum"
+    },
+    "title": {
+      "translate": "advancements.advancementethereumtrading.title"
+    },
+    "description": {
+      "translate": "advancements.advancementethereumtrading.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "advancementethereumtrading": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "utopiacraft:laptop",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "utopiacraft:advancementihasbucket"
+}

@@ -1,0 +1,29 @@
+{
+  "group": "utopiacraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "utopiacraft:lintisiumingot"
+    },
+    "1": {
+      "item": "utopiacraft:lintisiumingot"
+    },
+    "2": {
+      "item": "utopiacraft:lintisiumingot"
+    },
+    "3": {
+      "item": "utopiacraft:lintisiumingot"
+    },
+    "5": {
+      "item": "utopiacraft:lintisiumingot"
+    }
+  },
+  "result": {
+    "item": "utopiacraft:lintisiumarmorhelmet",
+    "count": 1
+  }
+}

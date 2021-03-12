@@ -1,0 +1,36 @@
+{
+  "group": "utopiacraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "utopiacraft:crekchunk"
+    },
+    "1": {
+      "item": "utopiacraft:crekchunk"
+    },
+    "2": {
+      "item": "utopiacraft:crekchunk"
+    },
+    "3": {
+      "item": "utopiacraft:crekchunk"
+    },
+    "5": {
+      "item": "utopiacraft:crekchunk"
+    },
+    "6": {
+      "item": "utopiacraft:crekchunk"
+    },
+    "8": {
+      "item": "utopiacraft:crekchunk"
+    }
+  },
+  "result": {
+    "item": "utopiacraft:chrisarmorlegs",
+    "count": 1
+  }
+}

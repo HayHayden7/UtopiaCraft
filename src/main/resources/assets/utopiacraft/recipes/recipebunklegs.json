@@ -1,0 +1,36 @@
+{
+  "group": "utopiacraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "utopiacraft:bunkingot"
+    },
+    "1": {
+      "item": "utopiacraft:bunkingot"
+    },
+    "2": {
+      "item": "utopiacraft:bunkingot"
+    },
+    "3": {
+      "item": "utopiacraft:bunkingot"
+    },
+    "5": {
+      "item": "utopiacraft:bunkingot"
+    },
+    "6": {
+      "item": "utopiacraft:bunkingot"
+    },
+    "8": {
+      "item": "utopiacraft:bunkingot"
+    }
+  },
+  "result": {
+    "item": "utopiacraft:bunkarmorlegs",
+    "count": 1
+  }
+}

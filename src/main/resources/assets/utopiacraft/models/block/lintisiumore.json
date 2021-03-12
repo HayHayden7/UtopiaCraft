@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "utopiacraft:blocks/lintisium_ore_updated",
+    "particle": "utopiacraft:blocks/lintisium_ore_updated"
+  }
+}

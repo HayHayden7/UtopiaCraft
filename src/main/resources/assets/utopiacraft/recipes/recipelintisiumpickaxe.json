@@ -1,0 +1,30 @@
+{
+  "group": "utopiacraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "utopiacraft:lintisiumingot"
+    },
+    "1": {
+      "item": "utopiacraft:lintisiumingot"
+    },
+    "2": {
+      "item": "utopiacraft:lintisiumingot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "utopiacraft:lintisiumpickaxe",
+    "count": 1
+  }
+}

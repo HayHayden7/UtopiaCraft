@@ -1,0 +1,11 @@
+{
+  "_fv": 15,
+  "_type": "tab",
+  "definition": {
+    "name": "UtopiaCraft Blocks",
+    "icon": {
+      "value": "CUSTOM:RyderLog"
+    },
+    "showSearch": false
+  }
+}

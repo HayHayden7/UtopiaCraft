@@ -1,0 +1,8 @@
+{
+  "parent": "utopiacraft:custom/laptopfinal",
+  "textures": {
+    "all": "utopiacraft:blocks/laptoptexture",
+    "particle": "utopiacraft:blocks/laptoptexture",
+    "0": "utopiacraft:blocks/laptoptexture"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "utopiacraft:blocks/ryder_log_fixed_new",
+    "up": "utopiacraft:blocks/ryder_log_fixed_new",
+    "north": "utopiacraft:blocks/ryder_log_side_update",
+    "east": "utopiacraft:blocks/ryder_log_side_update",
+    "south": "utopiacraft:blocks/ryder_log_side_update",
+    "west": "utopiacraft:blocks/ryder_log_side_update",
+    "particle": "utopiacraft:blocks/ryder_log_fixed_new"
+  }
+}

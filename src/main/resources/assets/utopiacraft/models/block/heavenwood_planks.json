@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "utopiacraft:blocks/heavenwood_planks",
+    "particle": "utopiacraft:blocks/heavenwood_planks"
+  }
+}

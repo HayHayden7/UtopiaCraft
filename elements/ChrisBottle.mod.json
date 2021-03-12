@@ -1,0 +1,31 @@
+{
+  "_fv": 15,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "chris_bottle",
+    "customModelName": "Normal",
+    "name": "Crek in a Bottle",
+    "rarity": "UNCOMMON",
+    "specialInfo": [
+      "Drink to summon Anti Crek"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:UtopiaCraftItemsTab"
+    },
+    "stackSize": 1,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": "Items.GLASS_BOTTLE"
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "drink",
+    "hasGlow": true,
+    "onEaten": {
+      "name": "ChrisBottleFoodEaten"
+    }
+  }
+}

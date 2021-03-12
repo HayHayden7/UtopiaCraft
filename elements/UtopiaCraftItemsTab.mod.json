@@ -1,0 +1,11 @@
+{
+  "_fv": 15,
+  "_type": "tab",
+  "definition": {
+    "name": "UtopiaCraft Items",
+    "icon": {
+      "value": "CUSTOM:CrekChunk"
+    },
+    "showSearch": false
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "group": "utopiacraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "34 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "utopiacraft:phlutoniumgem"
+    },
+    "1": {
+      "item": "utopiacraft:phlutoniumgem"
+    },
+    "2": {
+      "item": "utopiacraft:phlutoniumgem"
+    },
+    "3": {
+      "item": "utopiacraft:phlutoniumgem"
+    },
+    "4": {
+      "item": "utopiacraft:bunkrod"
+    },
+    "7": {
+      "item": "utopiacraft:bunkrod"
+    }
+  },
+  "result": {
+    "item": "utopiacraft:phlutoniumhammer",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "utopiacraft:blocks/ryder_grass_bottom",
+    "up": "utopiacraft:blocks/ryder_grass_top_fixed",
+    "north": "utopiacraft:blocks/ryder_grass_side_fixed_2",
+    "east": "utopiacraft:blocks/ryder_grass_side_fixed_3",
+    "south": "utopiacraft:blocks/ryder_grass_side_fixed_4",
+    "west": "utopiacraft:blocks/ryder_grass_side_fixed_1",
+    "particle": "utopiacraft:blocks/ryder_grass_bottom"
+  }
+}

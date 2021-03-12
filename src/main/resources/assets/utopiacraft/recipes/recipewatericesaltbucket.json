@@ -1,0 +1,19 @@
+{
+  "group": "utopiacraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "utopiacraft:phlutoniumsalt"
+    },
+    {
+      "item": "minecraft:ice"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "result": {
+    "item": "utopiacraft:luckycharmsdimension",
+    "count": 1
+  }
+}

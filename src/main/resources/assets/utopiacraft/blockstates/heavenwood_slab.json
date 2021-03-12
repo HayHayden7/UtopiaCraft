@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "utopiacraft:block/heavenwood_slab"
+    },
+    "type=top": {
+      "model": "utopiacraft:block/heavenwood_slab_top"
+    },
+    "type=double": {
+      "model": "utopiacraft:block/heavenwood_slab_full"
+    }
+  }
+}

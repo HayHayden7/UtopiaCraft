@@ -1,0 +1,105 @@
+{
+  "_fv": 15,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 141,
+          "y": 93
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 141,
+          "y": 48
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "SpoonToWaifuButton"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "Next",
+          "x": 249,
+          "y": 48
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "width": 40,
+          "height": 20,
+          "name": "Back",
+          "x": 249,
+          "y": 93
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "16 Phlutonium",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "16 Phlutonium",
+          "x": 168,
+          "y": 93
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "The Spoon",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "The Spoon",
+          "x": 168,
+          "y": 48
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Trade",
+          "onClick": {
+            "name": "TheSpoonButton"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "Trade",
+          "x": 168,
+          "y": 66
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "utopiacraft:blocks/ryder_leaves_fixed",
+    "particle": "utopiacraft:blocks/ryder_leaves_fixed"
+  }
+}

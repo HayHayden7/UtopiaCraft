@@ -1,0 +1,111 @@
+{
+  "chris_scream": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "utopiacraft:chris_scream",
+        "stream": false
+      }
+    ]
+  },
+  "swous_hurt": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "utopiacraft:swous_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "swous": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "utopiacraft:swous",
+        "stream": false
+      }
+    ]
+  },
+  "jon_screech": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "utopiacraft:jon_screech",
+        "stream": false
+      }
+    ]
+  },
+  "deez_nuts": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "utopiacraft:deeznuts",
+        "stream": false
+      }
+    ]
+  },
+  "jon_kill": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "utopiacraft:jon_kill",
+        "stream": false
+      }
+    ]
+  },
+  "jon_bad_play": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "utopiacraft:jon_bad_play",
+        "stream": false
+      }
+    ]
+  },
+  "jon_chair_dead": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "utopiacraft:jon_chair_dead",
+        "stream": false
+      }
+    ]
+  },
+  "fork_hit": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "utopiacraft:fork_hit",
+        "stream": false
+      }
+    ]
+  },
+  "jon_chair_hurt_new": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "utopiacraft:jon_chair_hurt_louder",
+        "stream": false
+      }
+    ]
+  },
+  "mail": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "utopiacraft:deez",
+        "stream": false
+      }
+    ]
+  },
+  "watericesalyaye": {
+    "category": "player",
+    "subtitle": "subtitles.watericesalyaye",
+    "sounds": [
+      {
+        "name": "utopiacraft:salt",
+        "stream": false
+      }
+    ]
+  }
+}

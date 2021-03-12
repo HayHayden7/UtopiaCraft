@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "utopiacraft:block/waifuglob"
+    },
+    "facing=east": {
+      "model": "utopiacraft:block/waifuglob",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "utopiacraft:block/waifuglob",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "utopiacraft:block/waifuglob",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "utopiacraft:block/waifuglob",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "utopiacraft:block/waifuglob",
+      "x": 90
+    }
+  }
+}

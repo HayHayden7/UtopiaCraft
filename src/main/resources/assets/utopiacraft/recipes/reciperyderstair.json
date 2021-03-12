@@ -1,0 +1,33 @@
+{
+  "group": "utopiacraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "utopiacraft:ryderplank"
+    },
+    "3": {
+      "item": "utopiacraft:ryderplank"
+    },
+    "4": {
+      "item": "utopiacraft:ryderplank"
+    },
+    "6": {
+      "item": "utopiacraft:ryderplank"
+    },
+    "7": {
+      "item": "utopiacraft:ryderplank"
+    },
+    "8": {
+      "item": "utopiacraft:ryderplank"
+    }
+  },
+  "result": {
+    "item": "utopiacraft:ryderstair",
+    "count": 4
+  }
+}

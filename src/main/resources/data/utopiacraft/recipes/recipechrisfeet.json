@@ -1,0 +1,26 @@
+{
+  "group": "utopiacraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "utopiacraft:crekchunk"
+    },
+    "2": {
+      "item": "utopiacraft:crekchunk"
+    },
+    "3": {
+      "item": "utopiacraft:crekchunk"
+    },
+    "5": {
+      "item": "utopiacraft:crekchunk"
+    }
+  },
+  "result": {
+    "item": "utopiacraft:chrisarmor_boots",
+    "count": 1
+  }
+}

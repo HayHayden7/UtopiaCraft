@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "utopiacraft:block/laptop"
+    },
+    "facing=east": {
+      "model": "utopiacraft:block/laptop",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "utopiacraft:block/laptop",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "utopiacraft:block/laptop",
+      "y": 270
+    }
+  }
+}

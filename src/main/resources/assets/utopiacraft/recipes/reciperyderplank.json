@@ -1,0 +1,13 @@
+{
+  "group": "utopiacraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "utopiacraft:ryderlog"
+    }
+  ],
+  "result": {
+    "item": "utopiacraft:ryderplank",
+    "count": 4
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "utopiacraft:blocks/light_lantern",
+    "particle": "utopiacraft:blocks/light_lantern"
+  }
+}

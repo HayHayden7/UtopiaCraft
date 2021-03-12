@@ -1,0 +1,20 @@
+{
+  "group": "utopiacraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "utopiacraft:bunkingot"
+    },
+    "1": {
+      "item": "utopiacraft:bunkingot"
+    }
+  },
+  "result": {
+    "item": "utopiacraft:bunkrod",
+    "count": 4
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "utopiacraft:blocks/6",
+    "up": "utopiacraft:blocks/22",
+    "north": "utopiacraft:blocks/1",
+    "east": "utopiacraft:blocks/5",
+    "south": "utopiacraft:blocks/4",
+    "west": "utopiacraft:blocks/3",
+    "particle": "utopiacraft:blocks/6"
+  }
+}
