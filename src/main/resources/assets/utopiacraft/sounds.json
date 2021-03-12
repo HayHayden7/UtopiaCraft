@@ -98,12 +98,32 @@
       }
     ]
   },
-  "watericesalyaye": {
+  "watericesalt2": {
     "category": "player",
-    "subtitle": "subtitles.watericesalyaye",
+    "subtitle": "subtitles.watericesalt2",
+    "sounds": [
+      {
+        "name": "utopiacraft:salt2",
+        "stream": false
+      }
+    ]
+  },
+  "watericesalt1": {
+    "category": "player",
+    "subtitle": "subtitles.watericesalt1",
     "sounds": [
       {
         "name": "utopiacraft:salt",
+        "stream": false
+      }
+    ]
+  },
+  "watericesalt3": {
+    "category": "player",
+    "subtitle": "subtitles.watericesalt3",
+    "sounds": [
+      {
+        "name": "utopiacraft:salt3",
         "stream": false
       }
     ]
