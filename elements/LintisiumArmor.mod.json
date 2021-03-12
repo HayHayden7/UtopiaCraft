@@ -10,18 +10,6 @@
     "textureLeggings": "lintisium_legs_updated",
     "enableBoots": true,
     "textureBoots": "lintisium_boots_updated",
-    "onHelmetTick": {
-      "name": "LintisiumArmorBootsTickEvent"
-    },
-    "onBodyTick": {
-      "name": "LintisiumArmorBootsTickEvent"
-    },
-    "onLeggingsTick": {
-      "name": "LintisiumArmorBootsTickEvent"
-    },
-    "onBootsTick": {
-      "name": "LintisiumArmorBootsTickEvent"
-    },
     "creativeTab": {
       "value": "CUSTOM:UtopiaCraftToolsTab"
     },

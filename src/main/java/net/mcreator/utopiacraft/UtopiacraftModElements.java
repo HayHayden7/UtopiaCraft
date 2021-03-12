@@ -65,8 +65,12 @@ public class UtopiacraftModElements {
 		sounds.put(new ResourceLocation("utopiacraft", "jon_chair_hurt_new"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("utopiacraft", "jon_chair_hurt_new")));
 		sounds.put(new ResourceLocation("utopiacraft", "mail"), new net.minecraft.util.SoundEvent(new ResourceLocation("utopiacraft", "mail")));
-		sounds.put(new ResourceLocation("utopiacraft", "watericesalyaye"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("utopiacraft", "watericesalyaye")));
+		sounds.put(new ResourceLocation("utopiacraft", "watericesalt3"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("utopiacraft", "watericesalt3")));
+		sounds.put(new ResourceLocation("utopiacraft", "watericesalt2"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("utopiacraft", "watericesalt2")));
+		sounds.put(new ResourceLocation("utopiacraft", "watericesalt1"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("utopiacraft", "watericesalt1")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("utopiacraft").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

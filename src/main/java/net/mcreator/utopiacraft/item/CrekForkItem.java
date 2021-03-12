@@ -38,7 +38,7 @@ public class CrekForkItem extends UtopiacraftModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 9f;
+				return 7f;
 			}
 
 			public int getHarvestLevel() {
