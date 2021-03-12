@@ -27,7 +27,6 @@ import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.feature.BaseTreeFeatureConfig;
 import net.minecraft.world.gen.blockstateprovider.SimpleBlockStateProvider;
 import net.minecraft.world.gen.GenerationStage;
-import net.minecraft.world.biome.ParticleEffectAmbience;
 import net.minecraft.world.biome.MobSpawnInfo;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.BiomeGenerationSettings;
@@ -42,7 +41,6 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.util.Direction;
 import net.minecraft.state.BooleanProperty;
-import net.minecraft.particles.ParticleTypes;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 
@@ -66,8 +64,7 @@ public class UtopianForestBiome extends UtopiacraftModElements.ModElement {
 		public void registerBiomes(RegistryEvent.Register<Biome> event) {
 			if (biome == null) {
 				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-6684673).setWaterColor(4159204).setWaterFogColor(329011)
-						.withSkyColor(-6684673).withFoliageColor(-6684775).withGrassColor(-6684775)
-						.setParticle(new ParticleEffectAmbience(ParticleTypes.FIREWORK, 0.001f)).build();
+						.withSkyColor(-6684673).withFoliageColor(-6684775).withGrassColor(-6684775).build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(Blocks.GRASS_BLOCK.getDefaultState(),
 								Blocks.DIRT.getDefaultState(), Blocks.DIRT.getDefaultState())));

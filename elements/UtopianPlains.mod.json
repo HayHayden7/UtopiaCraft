@@ -34,7 +34,7 @@
       "value": ""
     },
     "moodSoundDelay": 0,
-    "spawnParticles": true,
+    "spawnParticles": false,
     "particleToSpawn": {
       "value": "FIREWORKS_SPARK"
     },

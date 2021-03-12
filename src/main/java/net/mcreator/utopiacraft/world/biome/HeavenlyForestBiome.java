@@ -22,7 +22,6 @@ import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.feature.BaseTreeFeatureConfig;
 import net.minecraft.world.gen.blockstateprovider.SimpleBlockStateProvider;
 import net.minecraft.world.gen.GenerationStage;
-import net.minecraft.world.biome.ParticleEffectAmbience;
 import net.minecraft.world.biome.MobSpawnInfo;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.BiomeGenerationSettings;
@@ -31,7 +30,6 @@ import net.minecraft.world.biome.Biome;
 import net.minecraft.util.registry.WorldGenRegistries;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.util.RegistryKey;
-import net.minecraft.particles.ParticleTypes;
 import net.minecraft.block.Blocks;
 
 import net.mcreator.utopiacraft.block.HeavenwoodLogBlock;
@@ -49,8 +47,7 @@ public class HeavenlyForestBiome extends UtopiacraftModElements.ModElement {
 		public void registerBiomes(RegistryEvent.Register<Biome> event) {
 			if (biome == null) {
 				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-3342337).setWaterColor(4159204).setWaterFogColor(329011)
-						.withSkyColor(-3342337).withFoliageColor(-6684673).withGrassColor(-6684673)
-						.setParticle(new ParticleEffectAmbience(ParticleTypes.ENCHANT, 0.001f)).build();
+						.withSkyColor(-3342337).withFoliageColor(-6684673).withGrassColor(-6684673).build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(Blocks.GRASS_BLOCK.getDefaultState(),
 								Blocks.DIRT.getDefaultState(), Blocks.DIRT.getDefaultState())));
