@@ -1,8 +1,8 @@
 {
   "id_map": {
+    "GUI": 6,
     "DIMENSION": 2,
-    "ENTITY": 26,
-    "GUI": 6
+    "ENTITY": 26
   },
   "mod_elements": [
     {
@@ -1880,14 +1880,15 @@
       "item.utopiacraft.utopiadimension": "Lint and Steel",
       "item.whitesuithelmet.name": "White Suit Helmet",
       "block.utopiacraft.ryder_sapling": "Ryder Sapling",
+      "biome.utopiacraft.utopian_tundra": "Utopian Tundra",
       "item.utopiacraft.jonchairmount_spawn_egg": "Jon Chair Spawn Egg",
       "item.utopiacraft.joblin_effigy": "Joblin Effigy",
       "item.bunkarmorlegs.name": "Bunk Leggings",
       "entity.crek.name": "Crek",
       "tile.bunkblock.name": "Bunk Block",
       "block.utopiacraft.ryder_grass": "Ryder Grass",
-      "block.utopiacraft.bunkblock": "Bunk Block",
       "item.utopiacraft.jonchairsummon": "Jon Chair",
+      "block.utopiacraft.bunkblock": "Bunk Block",
       "tile.lintisiumore.name": "Lintisium Ore",
       "tile.saltinfusedcobblestone.name": "Salt Infused Cobblestone",
       "block.utopiacraft.waifuglob": "Waifu Glob",
@@ -1901,9 +1902,9 @@
       "item.bunkingot.name": "Bunk Ingot",
       "item.phlutoniumhammer.name": "Phlutonium Hammer",
       "tile.acrylictank.name": "Acrylic Tank",
-      "subtitles.watericesalt3": "Dang! That look good!",
-      "itemGroup.tabutopia_craft_tools_tab": "UtopiaCraft Tools and Armor",
       "item.blacksuitboots.name": "Black Suit Boots",
+      "itemGroup.tabutopia_craft_tools_tab": "UtopiaCraft Tools and Armor",
+      "subtitles.watericesalt3": "Dang! That look good!",
       "block.utopiacraft.ryderfence": "Ryder Fence",
       "subtitles.watericesalt1": "What are they gonna do now?",
       "subtitles.watericesalt2": "I know that\u0027s not what I think it is!",
@@ -1915,8 +1916,8 @@
       "tile.lintisiumblock.name": "Lintisium Block",
       "item.lintisiumingot.name": "Lintisium Ingot",
       "block.utopiacraft.ryderstair": "Ryder Stair",
-      "item.bunkrod.name": "Bunk Rod",
       "tile.laptop.name": "Laptop",
+      "item.bunkrod.name": "Bunk Rod",
       "item.joblineffigy.name": "Joblin Effigy",
       "item.lintisiumarmorboots.name": "Lintisium Boots",
       "item.whitesuitboots.name": "White Suit Boots",
@@ -1930,6 +1931,7 @@
       "biome.utopiacraft.utopian_forest": "Utopian Forest",
       "item.utopiacraft.joblin_spawn_egg": "Joblin Spawn Egg",
       "tile.phlutoniumore.name": "Phlutonium Ore",
+      "biome.utopiacraft.utopian_desert": "Utopian Desert",
       "entity.utopiacraft.rowanslime": "Rowan Slime",
       "block.utopiacraft.bunkore": "Bunk Ore",
       "itemGroup.tabutopia_craft_items_tab": "UtopiaCraft Items",

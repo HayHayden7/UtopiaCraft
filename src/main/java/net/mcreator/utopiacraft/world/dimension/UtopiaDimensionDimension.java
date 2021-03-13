@@ -139,7 +139,7 @@ public class UtopiaDimensionDimension extends UtopiacraftModElements.ModElement 
 	public static class CustomPortalBlock extends NetherPortalBlock {
 		public CustomPortalBlock() {
 			super(Block.Properties.create(Material.PORTAL).doesNotBlockMovement().tickRandomly().hardnessAndResistance(-1.0F).sound(SoundType.GLASS)
-					.setLightLevel(s -> 0).noDrops());
+					.setLightLevel(s -> 3).noDrops());
 			setRegistryName("utopiadimension_portal");
 		}
 

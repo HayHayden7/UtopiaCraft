@@ -14,6 +14,12 @@
       },
       {
         "value": "CUSTOM:HeavenlyForest"
+      },
+      {
+        "value": "CUSTOM:UtopianTundra"
+      },
+      {
+        "value": "CUSTOM:UtopianDesert"
       }
     ],
     "worldGenType": "Normal world gen",
@@ -40,7 +46,7 @@
     "portalParticles": {
       "value": "PORTAL"
     },
-    "portalLuminance": 0,
+    "portalLuminance": 3,
     "portalSound": {
       "value": "block.portal.ambient"
     },

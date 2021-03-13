@@ -13,14 +13,6 @@
       "value": -16407587,
       "falpha": 0.0
     },
-    "foliageColor": {
-      "value": -11948271,
-      "falpha": 0.0
-    },
-    "waterColor": {
-      "value": -11364647,
-      "falpha": 0.0
-    },
     "ambientSound": {
       "value": ""
     },
@@ -43,13 +35,13 @@
     "parent": {
       "value": "desert"
     },
-    "rainingPossibility": 0.5,
+    "rainingPossibility": 0.0,
     "temperature": 2.0,
     "baseHeight": 0.1,
-    "heightVariation": 0.2,
+    "heightVariation": 0.1,
     "biomeType": "DESERT",
     "spawnBiome": false,
-    "biomeWeight": 10,
+    "biomeWeight": 8,
     "biomeDictionaryTypes": [
       "HOT",
       "DRY",
@@ -63,7 +55,7 @@
     "sandPatchesPerChunk": 0,
     "gravelPatchesPerChunk": 0,
     "reedsPerChunk": 0,
-    "cactiPerChunk": 3,
+    "cactiPerChunk": 5,
     "treesPerChunk": 0,
     "vanillaTreeType": "Default",
     "treeType": 0,

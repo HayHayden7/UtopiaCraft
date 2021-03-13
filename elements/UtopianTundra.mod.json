@@ -4,7 +4,7 @@
   "definition": {
     "name": "Utopian Tundra",
     "groundBlock": {
-      "value": "Blocks.GRASS"
+      "value": "Blocks.SNOW"
     },
     "undergroundBlock": {
       "value": "Blocks.DIRT#0"
@@ -44,17 +44,17 @@
       "value": "snowy_tundra"
     },
     "rainingPossibility": 1.0,
-    "temperature": 0.0,
+    "temperature": -1.0,
     "baseHeight": 0.1,
     "heightVariation": 0.2,
     "biomeType": "ICY",
     "spawnBiome": false,
-    "biomeWeight": 10,
+    "biomeWeight": 8,
     "biomeDictionaryTypes": [
       "SNOWY",
       "COLD"
     ],
-    "grassPerChunk": 4,
+    "grassPerChunk": 0,
     "seagrassPerChunk": 0,
     "flowersPerChunk": 0,
     "mushroomsPerChunk": 0,
