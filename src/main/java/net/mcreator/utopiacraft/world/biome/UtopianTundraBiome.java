@@ -7,19 +7,10 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.common.BiomeDictionary;
 
-import net.minecraft.world.gen.trunkplacer.StraightTrunkPlacer;
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilderConfig;
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilder;
-import net.minecraft.world.gen.placement.Placement;
-import net.minecraft.world.gen.placement.AtSurfaceWithExtraConfig;
-import net.minecraft.world.gen.foliageplacer.BlobFoliagePlacer;
-import net.minecraft.world.gen.feature.TwoLayerFeature;
-import net.minecraft.world.gen.feature.Features;
-import net.minecraft.world.gen.feature.FeatureSpread;
-import net.minecraft.world.gen.feature.Feature;
-import net.minecraft.world.gen.feature.BaseTreeFeatureConfig;
-import net.minecraft.world.gen.blockstateprovider.SimpleBlockStateProvider;
-import net.minecraft.world.gen.GenerationStage;
+import net.minecraft.world.gen.feature.structure.StructureFeatures;
+import net.minecraft.world.biome.ParticleEffectAmbience;
 import net.minecraft.world.biome.MobSpawnInfo;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.BiomeGenerationSettings;
@@ -28,6 +19,7 @@ import net.minecraft.world.biome.Biome;
 import net.minecraft.util.registry.WorldGenRegistries;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.util.RegistryKey;
+import net.minecraft.particles.ParticleTypes;
 import net.minecraft.block.Blocks;
 
 import net.mcreator.utopiacraft.UtopiacraftModElements;
@@ -43,24 +35,22 @@ public class UtopianTundraBiome extends UtopiacraftModElements.ModElement {
 		@SubscribeEvent
 		public void registerBiomes(RegistryEvent.Register<Biome> event) {
 			if (biome == null) {
-				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-9591590).setWaterColor(4159204).setWaterFogColor(329011)
-						.withSkyColor(-9591590).withFoliageColor(-4400909).withGrassColor(-5387547).build();
+				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-6684673).setWaterColor(4159204).setWaterFogColor(329011)
+						.withSkyColor(-6684673).withFoliageColor(-6684775).withGrassColor(-6684775)
+						.setParticle(new ParticleEffectAmbience(ParticleTypes.WHITE_ASH, 0.01f)).build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(Blocks.SNOW_BLOCK.getDefaultState(),
-								Blocks.DIRT.getDefaultState(), Blocks.DIRT.getDefaultState())));
-				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
-						Feature.TREE
-								.withConfiguration((new BaseTreeFeatureConfig.Builder(new SimpleBlockStateProvider(Blocks.OAK_LOG.getDefaultState()),
-										new SimpleBlockStateProvider(Blocks.OAK_LEAVES.getDefaultState()),
-										new BlobFoliagePlacer(FeatureSpread.func_242252_a(2), FeatureSpread.func_242252_a(0), 3),
-										new StraightTrunkPlacer(4, 2, 0), new TwoLayerFeature(1, 0, 1))).setIgnoreVines().build())
-								.withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT)
-								.withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(1, 0.1F, 1))));
+								Blocks.SNOW_BLOCK.getDefaultState(), Blocks.SNOW_BLOCK.getDefaultState())));
+				biomeGenerationSettings.withStructure(StructureFeatures.MINESHAFT);
+				biomeGenerationSettings.withStructure(StructureFeatures.VILLAGE_SNOWY);
+				biomeGenerationSettings.withStructure(StructureFeatures.IGLOO);
 				DefaultBiomeFeatures.withCavesAndCanyons(biomeGenerationSettings);
 				DefaultBiomeFeatures.withOverworldOres(biomeGenerationSettings);
+				DefaultBiomeFeatures.withIcebergs(biomeGenerationSettings);
+				DefaultBiomeFeatures.withEmeraldOre(biomeGenerationSettings);
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
-				biome = new Biome.Builder().precipitation(Biome.RainType.SNOW).category(Biome.Category.ICY).depth(0.1f).scale(0.2f).temperature(-1f)
-						.downfall(1f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
+				biome = new Biome.Builder().precipitation(Biome.RainType.SNOW).category(Biome.Category.ICY).depth(0.3f).scale(0.5f).temperature(0f)
+						.downfall(0.5f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
 						.withGenerationSettings(biomeGenerationSettings.build()).build();
 				event.getRegistry().register(biome.setRegistryName("utopiacraft:utopian_tundra"));
 			}
@@ -68,7 +58,7 @@ public class UtopianTundraBiome extends UtopiacraftModElements.ModElement {
 	}
 	@Override
 	public void init(FMLCommonSetupEvent event) {
-		BiomeDictionary.addTypes(RegistryKey.getOrCreateKey(Registry.BIOME_KEY, WorldGenRegistries.BIOME.getKey(biome)), BiomeDictionary.Type.SNOWY,
-				BiomeDictionary.Type.COLD);
+		BiomeDictionary.addTypes(RegistryKey.getOrCreateKey(Registry.BIOME_KEY, WorldGenRegistries.BIOME.getKey(biome)), BiomeDictionary.Type.COLD,
+				BiomeDictionary.Type.PLAINS);
 	}
 }

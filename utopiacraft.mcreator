@@ -1,8 +1,8 @@
 {
   "id_map": {
     "GUI": 6,
-    "DIMENSION": 2,
-    "ENTITY": 26
+    "ENTITY": 26,
+    "DIMENSION": 2
   },
   "mod_elements": [
     {
@@ -1720,15 +1720,6 @@
       "registry_name": "joblin_effigy_recipe"
     },
     {
-      "name": "UtopianDesert",
-      "type": "biome",
-      "sortid": 229,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "utopian_desert"
-    },
-    {
       "name": "UtopianTundra",
       "type": "biome",
       "sortid": 230,
@@ -1736,6 +1727,209 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "utopian_tundra"
+    },
+    {
+      "name": "UtopianHills",
+      "type": "biome",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "utopian_hills"
+    },
+    {
+      "name": "StairwayToHeaven",
+      "type": "structure",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stairway_to_heaven"
+    },
+    {
+      "name": "HeavenlyHills",
+      "type": "biome",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heavenly_hills"
+    },
+    {
+      "name": "HerobrineDimension",
+      "type": "dimension",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "herobrine_dimension",
+      "metadata": {
+        "ep": false
+      }
+    },
+    {
+      "name": "HerobrineForest",
+      "type": "biome",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "herobrine_forest"
+    },
+    {
+      "name": "HerobrineTeleporter",
+      "type": "block",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "herobrine_teleporter"
+    },
+    {
+      "name": "HerobrineTeleporterOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "herobrine_teleporter_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HerobrineTunnel",
+      "type": "structure",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "herobrine_tunnel"
+    },
+    {
+      "name": "HerobrinePyramid1",
+      "type": "structure",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "herobrine_pyramid_1"
+    },
+    {
+      "name": "HerobrineCross1",
+      "type": "structure",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "herobrine_cross_1"
+    },
+    {
+      "name": "HerobrineEntity",
+      "type": "mob",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "herobrine_entity"
+    },
+    {
+      "name": "HerobrinePlains",
+      "type": "biome",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "herobrine_plains"
+    },
+    {
+      "name": "ShavedForest",
+      "type": "biome",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shaved_forest"
+    },
+    {
+      "name": "HerobrineEntityOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "herobrine_entity_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HerobrineTeleporterStructure",
+      "type": "structure",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "herobrine_teleporter_structure"
+    },
+    {
+      "name": "HerobrineDimensionPlayerEntersDimension",
+      "type": "procedure",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "herobrine_dimension_player_enters_dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1871,6 +2065,7 @@
       "item.utopiacraft.lintisiumshovel": "Lintisium Shovel",
       "block.utopiacraft.light_lantern": "Light Lantern",
       "block.utopiacraft.lintisiumore": "Lintisium Ore",
+      "biome.utopiacraft.heavenly_hills": "Heavenly Forest",
       "item.utopiacraft.lintisiumingot": "Lintisium Ingot",
       "block.utopiacraft.phlutoniumblock": "Phlutonium Block",
       "item.waifucard7.name": "Waifu Card #7",
@@ -1887,8 +2082,8 @@
       "entity.crek.name": "Crek",
       "tile.bunkblock.name": "Bunk Block",
       "block.utopiacraft.ryder_grass": "Ryder Grass",
-      "item.utopiacraft.jonchairsummon": "Jon Chair",
       "block.utopiacraft.bunkblock": "Bunk Block",
+      "item.utopiacraft.jonchairsummon": "Jon Chair",
       "tile.lintisiumore.name": "Lintisium Ore",
       "tile.saltinfusedcobblestone.name": "Salt Infused Cobblestone",
       "block.utopiacraft.waifuglob": "Waifu Glob",
@@ -1902,9 +2097,9 @@
       "item.bunkingot.name": "Bunk Ingot",
       "item.phlutoniumhammer.name": "Phlutonium Hammer",
       "tile.acrylictank.name": "Acrylic Tank",
-      "item.blacksuitboots.name": "Black Suit Boots",
-      "itemGroup.tabutopia_craft_tools_tab": "UtopiaCraft Tools and Armor",
       "subtitles.watericesalt3": "Dang! That look good!",
+      "itemGroup.tabutopia_craft_tools_tab": "UtopiaCraft Tools and Armor",
+      "item.blacksuitboots.name": "Black Suit Boots",
       "block.utopiacraft.ryderfence": "Ryder Fence",
       "subtitles.watericesalt1": "What are they gonna do now?",
       "subtitles.watericesalt2": "I know that\u0027s not what I think it is!",
@@ -1916,22 +2111,23 @@
       "tile.lintisiumblock.name": "Lintisium Block",
       "item.lintisiumingot.name": "Lintisium Ingot",
       "block.utopiacraft.ryderstair": "Ryder Stair",
-      "tile.laptop.name": "Laptop",
       "item.bunkrod.name": "Bunk Rod",
+      "tile.laptop.name": "Laptop",
       "item.joblineffigy.name": "Joblin Effigy",
       "item.lintisiumarmorboots.name": "Lintisium Boots",
       "item.whitesuitboots.name": "White Suit Boots",
       "item.utopiacraft.thespoon": "The Spoon",
       "item.lintisiumaxe.name": "Lintisium Axe",
       "advancements.advancementethereumtrading.title": "Money Laundering",
+      "entity.utopiacraft.herobrine_entity": "Herobrine Entity",
       "advancements.advancementihasbucket.descr": "Craft a Bucket",
       "item.crekfork.name": "The Fork",
       "entity.utopiacraft.crek": "Crek",
       "item.blacksuitlegs.name": "Black Suit Pants",
       "biome.utopiacraft.utopian_forest": "Utopian Forest",
+      "item.utopiacraft.herobrine_entity_spawn_egg": "Herobrine Entity Spawn Egg",
       "item.utopiacraft.joblin_spawn_egg": "Joblin Spawn Egg",
       "tile.phlutoniumore.name": "Phlutonium Ore",
-      "biome.utopiacraft.utopian_desert": "Utopian Desert",
       "entity.utopiacraft.rowanslime": "Rowan Slime",
       "block.utopiacraft.bunkore": "Bunk Ore",
       "itemGroup.tabutopia_craft_items_tab": "UtopiaCraft Items",
@@ -1950,6 +2146,7 @@
       "item.lintisiumshovel.name": "Lintisium Shovel",
       "item.utopiacraft.crekfork": "The Fork",
       "item.chrisarmorlegs.name": "Swoosh Pants",
+      "block.utopiacraft.herobrine_teleporter": "Herobrine Teleporter",
       "item.utopiacraft.phlutoniumgem": "Phlutonium Gem",
       "block.utopiacraft.phlutoniumore": "Phlutonium Ore",
       "item.utopiacraft.impossiblefish_spawn_egg": "Impossible Fish Spawn Egg",
@@ -1966,6 +2163,7 @@
       "entity.utopiacraft.impossiblefish": "Impossible Fish",
       "item.roasteddeeziannut.name": "Roasted Deezian Nut",
       "entity.rowanslime.name": "Rowan Slime",
+      "biome.utopiacraft.herobrine_forest": "Herobrine Forest",
       "entity.utopiacraft.jonchairmount": "Jon Chair",
       "item.cardpack.name": "Waifu Card Pack",
       "tile.demaliteorestone.name": "Demalite Ore",
@@ -1977,6 +2175,7 @@
       "item.whitesuitbody.name": "White Suit Jacket",
       "item.utopiacraft.roasteddeeziannut": "Roasted Deezian Nut",
       "block.utopiacraft.heavenwood_slab": "Heavenwood Slab",
+      "biome.utopiacraft.utopian_hills": "Utopian Plains",
       "item.bunkarmorhelmet.name": "Bunk Helmet",
       "block.utopiacraft.heavenwood_fence": "Heavenwood Fence",
       "item.demaliteingot.name": "Demalite Ingot",
@@ -2010,6 +2209,7 @@
       "block.utopiacraft.ryderplank": "Ryder Planks",
       "item.utopiacraft.chrisarmor_boots": "Swoosh Feet",
       "item.highstrengthacrylic.name": "High-Strength Acrylic",
+      "item.utopiacraft.herobrine_dimension": "Herobrine Dimension Portal Igniter",
       "advancements.advancementihasbucket.title": "I Has Bucket",
       "item.waifucard8.name": "Waifu Card #8",
       "item.utopiacraft.bunkrod": "Bunk Rod",
@@ -2020,6 +2220,7 @@
       "item.impossiblefishitem.name": "Impossible Fish",
       "item.utopiacraft.cooked_impossible_fish": "Cooked Impossible Fish",
       "item.utopiacraft.lintisiumarmor_leggings": "Lintisium Leggings",
+      "biome.utopiacraft.herobrine_plains": "Herobrine Plains",
       "item.utopiacraft.evilcrek_spawn_egg": "Anti Crek Spawn Egg",
       "tile.demaliteore.name": "Demalite Ore",
       "tile.augmentedironblock.name": "Augmented Iron Block",
@@ -2027,6 +2228,7 @@
       "item.utopiacraft.phlutoniumhammer": "Phlutonium Hammer",
       "block.utopiacraft.saltinfusedcobblestone": "Salt Infused Cobblestone",
       "entity.utopiacraft.evilcrek": "Anti Crek",
+      "biome.utopiacraft.shaved_forest": "Herobrine Forest",
       "item.jonchairsummon.name": "Jon Chair",
       "item.bunkhoe.name": "Bunk Hoe",
       "item.bunkaxe.name": "Bunk Axe",

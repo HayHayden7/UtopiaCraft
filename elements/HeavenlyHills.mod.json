@@ -2,15 +2,23 @@
   "_fv": 15,
   "_type": "biome",
   "definition": {
-    "name": "Utopian Desert",
+    "name": "Heavenly Forest",
     "groundBlock": {
-      "value": "Blocks.SAND#1"
+      "value": "Blocks.GRASS"
     },
     "undergroundBlock": {
-      "value": "Blocks.RED_SANDSTONE#0"
+      "value": "Blocks.DIRT#0"
     },
     "airColor": {
-      "value": -16407587,
+      "value": -3342337,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -6684673,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -6684673,
       "falpha": 0.0
     },
     "ambientSound": {
@@ -28,44 +36,43 @@
     "moodSoundDelay": 6000,
     "spawnParticles": false,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "ENCHANTMENT_TABLE"
     },
-    "particlesProbability": 0.5,
-    "biomeCategory": "DESERT",
+    "particlesProbability": 0.1,
+    "biomeCategory": "EXTREME_HILLS",
     "parent": {
-      "value": "desert"
+      "value": "CUSTOM:HeavenlyForest"
     },
-    "rainingPossibility": 0.0,
-    "temperature": 2.0,
-    "baseHeight": 0.1,
-    "heightVariation": 0.1,
-    "biomeType": "DESERT",
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "baseHeight": 0.30000000000000004,
+    "heightVariation": 0.6,
+    "biomeType": "WARM",
     "spawnBiome": false,
-    "biomeWeight": 8,
+    "biomeWeight": 5,
     "biomeDictionaryTypes": [
-      "HOT",
-      "DRY",
-      "SANDY"
+      "MOUNTAIN",
+      "HILLS"
     ],
-    "grassPerChunk": 0,
+    "grassPerChunk": 4,
     "seagrassPerChunk": 0,
-    "flowersPerChunk": 0,
+    "flowersPerChunk": 4,
     "mushroomsPerChunk": 0,
     "bigMushroomsChunk": 0,
     "sandPatchesPerChunk": 0,
     "gravelPatchesPerChunk": 0,
     "reedsPerChunk": 0,
-    "cactiPerChunk": 5,
+    "cactiPerChunk": 0,
     "treesPerChunk": 0,
     "vanillaTreeType": "Default",
-    "treeType": 0,
-    "minHeight": 7,
+    "treeType": 1,
+    "minHeight": 4,
     "maxWaterDepth": 0,
     "treeStem": {
-      "value": ""
+      "value": "CUSTOM:HeavenwoodLog"
     },
     "treeBranch": {
-      "value": ""
+      "value": "Blocks.LEAVES#0"
     },
     "treeVines": {
       "value": ""
@@ -74,7 +81,7 @@
       "value": ""
     },
     "spawnStronghold": false,
-    "spawnMineshaft": false,
+    "spawnMineshaft": true,
     "spawnPillagerOutpost": false,
     "villageType": "none",
     "spawnWoodlandMansion": false,
@@ -86,9 +93,7 @@
     "oceanRuinType": "NONE",
     "defaultFeatures": [
       "Caves",
-      "Ores",
-      "DesertFeatures",
-      "DeadBushes"
+      "Ores"
     ],
     "spawnEntries": []
   }

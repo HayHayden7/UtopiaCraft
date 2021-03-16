@@ -2,12 +2,12 @@
   "_fv": 15,
   "_type": "biome",
   "definition": {
-    "name": "Utopian Tundra",
+    "name": "Utopian Plains",
     "groundBlock": {
-      "value": "Blocks.SNOW"
+      "value": "Blocks.GRASS"
     },
     "undergroundBlock": {
-      "value": "Blocks.SNOW"
+      "value": "Blocks.DIRT#0"
     },
     "airColor": {
       "value": -6684673,
@@ -33,30 +33,30 @@
     "moodSound": {
       "value": ""
     },
-    "moodSoundDelay": 6000,
-    "spawnParticles": true,
+    "moodSoundDelay": 0,
+    "spawnParticles": false,
     "particleToSpawn": {
-      "value": "WHITE_ASH"
+      "value": "FIREWORKS_SPARK"
     },
-    "particlesProbability": 1.0,
-    "biomeCategory": "ICY",
+    "particlesProbability": 0.1,
+    "biomeCategory": "EXTREME_HILLS",
     "parent": {
-      "value": "snowy_tundra"
+      "value": "CUSTOM:UtopianPlains"
     },
-    "rainingPossibility": 0.5,
-    "temperature": 0.0,
+    "rainingPossibility": 0.25,
+    "temperature": 0.5,
     "baseHeight": 0.30000000000000004,
     "heightVariation": 0.5,
-    "biomeType": "ICY",
+    "biomeType": "WARM",
     "spawnBiome": false,
-    "biomeWeight": 1,
+    "biomeWeight": 5,
     "biomeDictionaryTypes": [
-      "COLD",
-      "PLAINS"
+      "MOUNTAIN",
+      "HILLS"
     ],
-    "grassPerChunk": 0,
+    "grassPerChunk": 5,
     "seagrassPerChunk": 0,
-    "flowersPerChunk": 0,
+    "flowersPerChunk": 4,
     "mushroomsPerChunk": 0,
     "bigMushroomsChunk": 0,
     "sandPatchesPerChunk": 0,
@@ -66,7 +66,7 @@
     "treesPerChunk": 0,
     "vanillaTreeType": "Default",
     "treeType": 0,
-    "minHeight": 7,
+    "minHeight": 4,
     "maxWaterDepth": 0,
     "treeStem": {
       "value": ""
@@ -75,27 +75,28 @@
       "value": ""
     },
     "treeVines": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "treeFruits": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "spawnStronghold": false,
     "spawnMineshaft": true,
     "spawnPillagerOutpost": false,
-    "villageType": "snowy",
+    "villageType": "plains",
     "spawnWoodlandMansion": false,
     "spawnJungleTemple": false,
     "spawnDesertPyramid": false,
-    "spawnIgloo": true,
+    "spawnIgloo": false,
     "spawnOceanMonument": false,
     "spawnShipwreck": false,
     "oceanRuinType": "NONE",
     "defaultFeatures": [
       "Caves",
+      "MonsterRooms",
+      "Structures",
       "Ores",
-      "Icebergs",
-      "ExtraEmeraldOre"
+      "Lakes"
     ],
     "spawnEntries": []
   }
