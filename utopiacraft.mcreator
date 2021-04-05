@@ -1,8 +1,8 @@
 {
   "id_map": {
     "GUI": 6,
-    "ENTITY": 26,
-    "DIMENSION": 2
+    "DIMENSION": 2,
+    "ENTITY": 26
   },
   "mod_elements": [
     {
@@ -2020,20 +2020,20 @@
       "subtitle": "Dang! That look good!"
     },
     {
-      "name": "watericesalt2",
-      "files": [
-        "salt2"
-      ],
-      "category": "player",
-      "subtitle": "I know that\u0027s not what I think it is!"
-    },
-    {
       "name": "watericesalt1",
       "files": [
         "salt"
       ],
       "category": "player",
       "subtitle": "What are they gonna do now?"
+    },
+    {
+      "name": "watericesalt2",
+      "files": [
+        "salt2"
+      ],
+      "category": "player",
+      "subtitle": "I know that\u0027s not what I think it is!"
     }
   ],
   "language_map": {
@@ -2082,8 +2082,8 @@
       "entity.crek.name": "Crek",
       "tile.bunkblock.name": "Bunk Block",
       "block.utopiacraft.ryder_grass": "Ryder Grass",
-      "block.utopiacraft.bunkblock": "Bunk Block",
       "item.utopiacraft.jonchairsummon": "Jon Chair",
+      "block.utopiacraft.bunkblock": "Bunk Block",
       "tile.lintisiumore.name": "Lintisium Ore",
       "tile.saltinfusedcobblestone.name": "Salt Infused Cobblestone",
       "block.utopiacraft.waifuglob": "Waifu Glob",
@@ -2097,9 +2097,9 @@
       "item.bunkingot.name": "Bunk Ingot",
       "item.phlutoniumhammer.name": "Phlutonium Hammer",
       "tile.acrylictank.name": "Acrylic Tank",
-      "subtitles.watericesalt3": "Dang! That look good!",
-      "itemGroup.tabutopia_craft_tools_tab": "UtopiaCraft Tools and Armor",
       "item.blacksuitboots.name": "Black Suit Boots",
+      "itemGroup.tabutopia_craft_tools_tab": "UtopiaCraft Tools and Armor",
+      "subtitles.watericesalt3": "Dang! That look good!",
       "block.utopiacraft.ryderfence": "Ryder Fence",
       "subtitles.watericesalt1": "What are they gonna do now?",
       "subtitles.watericesalt2": "I know that\u0027s not what I think it is!",

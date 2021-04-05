@@ -49,8 +49,8 @@
           "biome": "utopiacraft:utopian_forest",
           "parameters": {
             "altitude": 0,
-            "temperature": 0.433333333333,
-            "humidity": 0.166666666667,
+            "temperature": 0.442857142857,
+            "humidity": 0.157142857143,
             "weirdness": 0,
             "offset": 0
           }
@@ -59,8 +59,8 @@
           "biome": "utopiacraft:ryder_forest",
           "parameters": {
             "altitude": 0,
-            "temperature": 0.366666666667,
-            "humidity": 0.233333333333,
+            "temperature": 0.385714285714,
+            "humidity": 0.214285714286,
             "weirdness": 0,
             "offset": 0
           }
@@ -69,8 +69,8 @@
           "biome": "utopiacraft:heavenly_forest",
           "parameters": {
             "altitude": 0,
-            "temperature": 0.3,
-            "humidity": 0.3,
+            "temperature": 0.328571428572,
+            "humidity": 0.271428571428,
             "weirdness": 0,
             "offset": 0
           }
@@ -79,8 +79,8 @@
           "biome": "utopiacraft:utopian_tundra",
           "parameters": {
             "altitude": 0,
-            "temperature": 0.233333333333,
-            "humidity": 0.366666666667,
+            "temperature": 0.271428571428,
+            "humidity": 0.328571428572,
             "weirdness": 0,
             "offset": 0
           }
@@ -89,14 +89,24 @@
           "biome": "utopiacraft:utopian_hills",
           "parameters": {
             "altitude": 0,
-            "temperature": 0.166666666667,
-            "humidity": 0.433333333333,
+            "temperature": 0.214285714286,
+            "humidity": 0.385714285714,
             "weirdness": 0,
             "offset": 0
           }
         },
         {
           "biome": "utopiacraft:heavenly_hills",
+          "parameters": {
+            "altitude": 0,
+            "temperature": 0.157142857143,
+            "humidity": 0.442857142857,
+            "weirdness": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "utopiacraft:utopian_desert",
           "parameters": {
             "altitude": 0,
             "temperature": 0.1,

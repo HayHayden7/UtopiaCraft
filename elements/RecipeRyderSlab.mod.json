@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:RyderStair"
+      "value": "CUSTOM:RyderSlab"
     },
     "name": "reciperyderslab",
     "namespace": "mod"

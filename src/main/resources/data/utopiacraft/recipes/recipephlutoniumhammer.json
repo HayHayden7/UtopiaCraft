@@ -3,7 +3,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "012",
-    "34 ",
+    " 4 ",
     " 7 "
   ],
   "key": {
@@ -14,9 +14,6 @@
       "item": "utopiacraft:phlutoniumgem"
     },
     "2": {
-      "item": "utopiacraft:phlutoniumgem"
-    },
-    "3": {
       "item": "utopiacraft:phlutoniumgem"
     },
     "4": {

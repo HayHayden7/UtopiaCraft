@@ -23,6 +23,9 @@
       },
       {
         "value": "CUSTOM:HeavenlyHills"
+      },
+      {
+        "value": "CUSTOM:UtopianDesert"
       }
     ],
     "worldGenType": "Normal world gen",
