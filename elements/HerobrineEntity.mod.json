@@ -1,8 +1,8 @@
 {
-  "_fv": 15,
+  "_fv": 17,
   "_type": "mob",
   "definition": {
-    "mobName": "Herobrine Entity",
+    "mobName": "Herobrine",
     "mobLabel": "",
     "mobModelName": "Biped",
     "mobModelTexture": "herobrine.png",
@@ -11,7 +11,7 @@
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
-    "hasSpawnEgg": true,
+    "hasSpawnEgg": false,
     "spawnEggBaseColor": {
       "value": -13395457,
       "falpha": 0.0
@@ -71,6 +71,11 @@
     "immuneToLightning": true,
     "immuneToPotions": true,
     "immuneToPlayer": true,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
     "mobDrop": {
       "value": ""
     },

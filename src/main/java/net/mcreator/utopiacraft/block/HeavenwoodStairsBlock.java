@@ -38,7 +38,7 @@ public class HeavenwoodStairsBlock extends UtopiacraftModElements.ModElement {
 		public CustomBlock() {
 			super(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(2f, 10f)).getDefaultState(),
 					Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 10f).setLightLevel(s -> 0).harvestLevel(0)
-							.harvestTool(ToolType.AXE));
+							.harvestTool(ToolType.AXE).setRequiresTool());
 			setRegistryName("heavenwood_stairs");
 		}
 

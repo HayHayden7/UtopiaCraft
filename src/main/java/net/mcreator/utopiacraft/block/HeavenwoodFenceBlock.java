@@ -39,7 +39,7 @@ public class HeavenwoodFenceBlock extends UtopiacraftModElements.ModElement {
 	public static class CustomBlock extends FenceBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 10f).setLightLevel(s -> 0).harvestLevel(0)
-					.harvestTool(ToolType.AXE));
+					.harvestTool(ToolType.AXE).setRequiresTool());
 			setRegistryName("heavenwood_fence");
 		}
 

@@ -46,7 +46,7 @@ public class HerobrineDimensionPlayerEntersDimensionProcedure extends Utopiacraf
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-		if (world instanceof World && !world.isRemote()) {
+		if (world instanceof ServerWorld) {
 			Template template = ((ServerWorld) world).getStructureTemplateManager()
 					.getTemplateDefaulted(new ResourceLocation("utopiacraft", "herobrine_overworld_teleporter"));
 			if (template != null) {

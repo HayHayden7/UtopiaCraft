@@ -114,7 +114,7 @@ public class LaptopBlock extends UtopiacraftModElements.ModElement {
 		public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(5f, 30f).setLightLevel(s -> 0).harvestLevel(2)
-					.harvestTool(ToolType.PICKAXE).notSolid().setOpaque((bs, br, bp) -> false));
+					.harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH).with(WATERLOGGED, false));
 			setRegistryName("laptop");
 		}
@@ -135,17 +135,15 @@ public class LaptopBlock extends UtopiacraftModElements.ModElement {
 		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
 			Vector3d offset = state.getOffset(world, pos);
 			switch ((Direction) state.get(FACING)) {
-				case UP :
-				case DOWN :
 				case SOUTH :
 				default :
-					return VoxelShapes.create(0.9D, 0D, 0.8D, 0.1D, 0.07D, 0.2D).withOffset(offset.x, offset.y, offset.z);
+					return VoxelShapes.or(makeCuboidShape(14.4, 0, 12.8, 1.6, 1.12, 3.2)).withOffset(offset.x, offset.y, offset.z);
 				case NORTH :
-					return VoxelShapes.create(0.1D, 0D, 0.2D, 0.9D, 0.07D, 0.8D).withOffset(offset.x, offset.y, offset.z);
-				case WEST :
-					return VoxelShapes.create(0.2D, 0D, 0.9D, 0.8D, 0.07D, 0.1D).withOffset(offset.x, offset.y, offset.z);
+					return VoxelShapes.or(makeCuboidShape(1.6, 0, 3.2, 14.4, 1.12, 12.8)).withOffset(offset.x, offset.y, offset.z);
 				case EAST :
-					return VoxelShapes.create(0.8D, 0D, 0.1D, 0.2D, 0.07D, 0.9D).withOffset(offset.x, offset.y, offset.z);
+					return VoxelShapes.or(makeCuboidShape(12.8, 0, 1.6, 3.2, 1.12, 14.4)).withOffset(offset.x, offset.y, offset.z);
+				case WEST :
+					return VoxelShapes.or(makeCuboidShape(3.2, 0, 14.4, 12.8, 1.12, 1.6)).withOffset(offset.x, offset.y, offset.z);
 			}
 		}
 

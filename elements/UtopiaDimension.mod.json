@@ -1,5 +1,5 @@
 {
-  "_fv": 15,
+  "_fv": 17,
   "_type": "dimension",
   "definition": {
     "biomesInDimension": [
@@ -23,9 +23,6 @@
       },
       {
         "value": "CUSTOM:HeavenlyHills"
-      },
-      {
-        "value": "CUSTOM:UtopianDesert"
       }
     ],
     "worldGenType": "Normal world gen",
@@ -56,7 +53,7 @@
     "portalSound": {
       "value": "block.portal.ambient"
     },
-    "igniterName": "Lint and Steel",
+    "igniterName": "Lint and Flint",
     "igniterTab": {
       "value": "CUSTOM:UtopiaCraftItemsTab"
     },

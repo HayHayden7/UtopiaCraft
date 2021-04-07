@@ -21,8 +21,6 @@ import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
 import net.minecraft.network.IPacket;
-import net.minecraft.item.SpawnEggItem;
-import net.minecraft.item.Item;
 import net.minecraft.entity.projectile.PotionEntity;
 import net.minecraft.entity.projectile.ArrowEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -47,7 +45,6 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.Blocks;
 
 import net.mcreator.utopiacraft.procedures.HerobrineEntityOnEntityTickUpdateProcedure;
-import net.mcreator.utopiacraft.itemgroup.UtopiaCraftItemsTabItemGroup;
 import net.mcreator.utopiacraft.UtopiacraftModElements;
 
 import java.util.Map;
@@ -68,8 +65,6 @@ public class HerobrineEntityEntity extends UtopiacraftModElements.ModElement {
 				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.6f, 1.8f))
 						.build("herobrine_entity").setRegistryName("herobrine_entity");
 		elements.entities.add(() -> entity);
-		elements.items.add(() -> new SpawnEggItem(entity, -13395457, -16724788, new Item.Properties().group(UtopiaCraftItemsTabItemGroup.tab))
-				.setRegistryName("herobrine_entity_spawn_egg"));
 	}
 
 	@SubscribeEvent

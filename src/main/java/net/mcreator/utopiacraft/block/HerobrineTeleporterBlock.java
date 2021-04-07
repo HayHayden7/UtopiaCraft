@@ -46,7 +46,7 @@ public class HerobrineTeleporterBlock extends UtopiacraftModElements.ModElement 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(5f, 30f).setLightLevel(s -> 5).harvestLevel(0)
-					.harvestTool(ToolType.PICKAXE));
+					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("herobrine_teleporter");
 		}
 

@@ -44,7 +44,7 @@ public class WaifuGlobBlock extends UtopiacraftModElements.ModElement {
 		public static final DirectionProperty FACING = DirectionalBlock.FACING;
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.SLIME).hardnessAndResistance(60f, 1250f).setLightLevel(s -> 0)
-					.harvestLevel(3).harvestTool(ToolType.PICKAXE));
+					.harvestLevel(3).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
 			setRegistryName("waifuglob");
 		}

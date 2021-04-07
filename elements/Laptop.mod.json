@@ -1,5 +1,5 @@
 {
-  "_fv": 15,
+  "_fv": 17,
   "_type": "block",
   "definition": {
     "texture": "laptoptexture",
@@ -20,12 +20,18 @@
     "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "CUTOUT_MIPPED",
-    "mx": 0.1,
-    "my": 0.0,
-    "mz": 0.2,
-    "Mx": 0.9,
-    "My": 0.07,
-    "Mz": 0.8,
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 1.6,
+        "my": 0.0,
+        "mz": 3.2,
+        "Mx": 14.4,
+        "My": 1.12,
+        "Mz": 12.8,
+        "subtract": false
+      }
+    ],
     "name": "Laptop",
     "specialInfo": [
       "Used to trade phlutonium"
@@ -63,6 +69,8 @@
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {

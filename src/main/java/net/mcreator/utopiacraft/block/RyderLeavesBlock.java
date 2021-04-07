@@ -40,7 +40,7 @@ public class RyderLeavesBlock extends UtopiacraftModElements.ModElement {
 	public static class CustomBlock extends LeavesBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(0.2f, 0.2f).setLightLevel(s -> 0)
-					.harvestLevel(0).harvestTool(ToolType.HOE).notSolid());
+					.harvestLevel(0).harvestTool(ToolType.HOE).setRequiresTool().notSolid());
 			setRegistryName("ryder_leaves");
 		}
 

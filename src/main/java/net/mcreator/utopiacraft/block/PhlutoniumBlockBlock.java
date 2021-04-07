@@ -36,7 +36,7 @@ public class PhlutoniumBlockBlock extends UtopiacraftModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(3f, 30f).setLightLevel(s -> 0).harvestLevel(2)
-					.harvestTool(ToolType.PICKAXE));
+					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("phlutoniumblock");
 		}
 

@@ -1,8 +1,8 @@
 {
   "id_map": {
     "GUI": 6,
-    "DIMENSION": 2,
-    "ENTITY": 26
+    "ENTITY": 26,
+    "DIMENSION": 2
   },
   "mod_elements": [
     {
@@ -2072,7 +2072,7 @@
       "block.utopiacraft.ryderlog": "Ryder Log",
       "item.waifucard1.name": "Waifu Card #1",
       "entity.joblin.name": "Joblin",
-      "item.utopiacraft.utopiadimension": "Lint and Steel",
+      "item.utopiacraft.utopiadimension": "Lint and Flint",
       "item.whitesuithelmet.name": "White Suit Helmet",
       "block.utopiacraft.ryder_sapling": "Ryder Sapling",
       "biome.utopiacraft.utopian_tundra": "Utopian Tundra",
@@ -2119,13 +2119,13 @@
       "item.utopiacraft.thespoon": "The Spoon",
       "item.lintisiumaxe.name": "Lintisium Axe",
       "advancements.advancementethereumtrading.title": "Money Laundering",
-      "entity.utopiacraft.herobrine_entity": "Herobrine Entity",
+      "entity.utopiacraft.herobrine_entity": "Herobrine",
       "advancements.advancementihasbucket.descr": "Craft a Bucket",
       "item.crekfork.name": "The Fork",
       "entity.utopiacraft.crek": "Crek",
       "item.blacksuitlegs.name": "Black Suit Pants",
       "biome.utopiacraft.utopian_forest": "Utopian Forest",
-      "item.utopiacraft.herobrine_entity_spawn_egg": "Herobrine Entity Spawn Egg",
+      "item.utopiacraft.herobrine_entity_spawn_egg": "Herobrine Spawn Egg",
       "item.utopiacraft.joblin_spawn_egg": "Joblin Spawn Egg",
       "tile.phlutoniumore.name": "Phlutonium Ore",
       "entity.utopiacraft.rowanslime": "Rowan Slime",
@@ -2244,6 +2244,10 @@
       "item.deeziannut.name": "Raw Deezian Nut"
     }
   },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
   "workspaceSettings": {
     "modid": "utopiacraft",
     "modName": "UtopiaCraft",
@@ -2257,10 +2261,10 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.16.4",
+    "currentGenerator": "forge-1.16.5",
     "credits": "Created using mod maker MCreator",
     "modElementsPackage": "net.mcreator.utopiacraft",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100103117
+  "mcreatorVersion": 202100112313
 }

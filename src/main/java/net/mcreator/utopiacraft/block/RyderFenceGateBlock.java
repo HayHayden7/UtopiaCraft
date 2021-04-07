@@ -51,7 +51,7 @@ public class RyderFenceGateBlock extends UtopiacraftModElements.ModElement {
 	public static class CustomBlock extends FenceGateBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 10f).setLightLevel(s -> 0).harvestLevel(0)
-					.harvestTool(ToolType.AXE).notSolid().setOpaque((bs, br, bp) -> false));
+					.harvestTool(ToolType.AXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
 			setRegistryName("ryder_fence_gate");
 		}
 

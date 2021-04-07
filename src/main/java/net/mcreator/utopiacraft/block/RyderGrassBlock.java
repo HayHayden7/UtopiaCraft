@@ -41,7 +41,7 @@ public class RyderGrassBlock extends UtopiacraftModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ORGANIC).sound(SoundType.PLANT).hardnessAndResistance(0.6f, 3f).setLightLevel(s -> 0)
-					.harvestLevel(0).harvestTool(ToolType.SHOVEL));
+					.harvestLevel(0).harvestTool(ToolType.SHOVEL).setRequiresTool());
 			setRegistryName("ryder_grass");
 		}
 

@@ -49,7 +49,7 @@ public class RyderSaplingUpdateTickProcedure extends UtopiacraftModElements.ModE
 		IWorld world = (IWorld) dependencies.get("world");
 		if ((Math.random() <= 0.1)) {
 			world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.getDefaultState(), 3);
-			if (world instanceof World && !world.isRemote()) {
+			if (world instanceof ServerWorld) {
 				Template template = ((ServerWorld) world).getStructureTemplateManager()
 						.getTemplateDefaulted(new ResourceLocation("utopiacraft", "ryder_tree"));
 				if (template != null) {
